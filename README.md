@@ -1,2 +1,2 @@
 # DA215A-Datateknik
-Labbar i Inbyggda system
+Labbar med Inbyggda system
