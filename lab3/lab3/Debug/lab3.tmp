@@ -1,0 +1,104 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.2.8</VERSION>
+ <DEVICE>"ATmega32U4"</DEVICE>
+ <WORKING_DIR>C:\Users\ASUS\Documents\Atmel Studio\7.0\lab3\lab3\Debug</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc</DIR>
+  <DIR>C:\Program Files (x86)\Atmel\Studio\7.0\toolchain\avr8\avrassembler\Include</DIR>
+  <DIR></DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>C:\Users\ASUS\Documents\Atmel Studio\7.0\lab3\lab3\lab3.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\m32U4def.inc</FILE>
+  <FILE>C:\Users\ASUS\Documents\Atmel Studio\7.0\lab3\lab3\lcd.inc</FILE>
+  <FILE>C:\Users\ASUS\Documents\Atmel Studio\7.0\lab3\lab3\delay.inc</FILE>
+  <FILE>C:\Users\ASUS\Documents\Atmel Studio\7.0\lab3\lab3\keyboard.inc</FILE>
+  <FILE>C:\Users\ASUS\Documents\Atmel Studio\7.0\lab3\lab3\Tarning.inc</FILE>
+  <FILE>C:\Users\ASUS\Documents\Atmel Studio\7.0\lab3\lab3\stats.inc</FILE>
+  <FILE>C:\Users\ASUS\Documents\Atmel Studio\7.0\lab3\lab3\monitor.inc</FILE>
+  <FILE>C:\Users\ASUS\Documents\Atmel Studio\7.0\lab3\lab3\stat_data.inc</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>C:\Users\ASUS\Documents\Atmel Studio\7.0\lab3\lab3\Debug\lab3.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>lab3.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>lab3.map</FILE>
+  <FILE>lab3.lss</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <init><FILE>C:\Users\ASUS\Documents\Atmel Studio\7.0\lab3\lab3\lab3.asm</FILE><LINE>52</LINE></init>
+  <Str_1><FILE>C:\Users\ASUS\Documents\Atmel Studio\7.0\lab3\lab3\lcd.inc</FILE><LINE>28</LINE></Str_1>
+  <Hello_str><FILE>C:\Users\ASUS\Documents\Atmel Studio\7.0\lab3\lab3\lcd.inc</FILE><LINE>31</LINE></Hello_str>
+  <Rolling_str><FILE>C:\Users\ASUS\Documents\Atmel Studio\7.0\lab3\lab3\lcd.inc</FILE><LINE>33</LINE></Rolling_str>
+  <Press2_str><FILE>C:\Users\ASUS\Documents\Atmel Studio\7.0\lab3\lab3\lcd.inc</FILE><LINE>35</LINE></Press2_str>
+  <Value_str><FILE>C:\Users\ASUS\Documents\Atmel Studio\7.0\lab3\lab3\lcd.inc</FILE><LINE>37</LINE></Value_str>
+  <Showstat_str><FILE>C:\Users\ASUS\Documents\Atmel Studio\7.0\lab3\lab3\lcd.inc</FILE><LINE>39</LINE></Showstat_str>
+  <Monitor_str><FILE>C:\Users\ASUS\Documents\Atmel Studio\7.0\lab3\lab3\lcd.inc</FILE><LINE>41</LINE></Monitor_str>
+  <Clearstat_str><FILE>C:\Users\ASUS\Documents\Atmel Studio\7.0\lab3\lab3\lcd.inc</FILE><LINE>43</LINE></Clearstat_str>
+  <Nxt2><FILE>C:\Users\ASUS\Documents\Atmel Studio\7.0\lab3\lab3\lcd.inc</FILE><LINE>56</LINE></Nxt2>
+  <Nxt2_End><FILE>C:\Users\ASUS\Documents\Atmel Studio\7.0\lab3\lab3\lcd.inc</FILE><LINE>63</LINE></Nxt2_End>
+  <lcd_write_chr><FILE>C:\Users\ASUS\Documents\Atmel Studio\7.0\lab3\lab3\lcd.inc</FILE><LINE>123</LINE></lcd_write_chr>
+  <lcd_write_nibble><FILE>C:\Users\ASUS\Documents\Atmel Studio\7.0\lab3\lab3\lcd.inc</FILE><LINE>97</LINE></lcd_write_nibble>
+  <delay_1_micros><FILE>C:\Users\ASUS\Documents\Atmel Studio\7.0\lab3\lab3\delay.inc</FILE><LINE>15</LINE></delay_1_micros>
+  <lcd_write_instr><FILE>C:\Users\ASUS\Documents\Atmel Studio\7.0\lab3\lab3\lcd.inc</FILE><LINE>109</LINE></lcd_write_instr>
+  <delay_micros><FILE>C:\Users\ASUS\Documents\Atmel Studio\7.0\lab3\lab3\delay.inc</FILE><LINE>34</LINE></delay_micros>
+  <lcd_init><FILE>C:\Users\ASUS\Documents\Atmel Studio\7.0\lab3\lab3\lcd.inc</FILE><LINE>135</LINE></lcd_init>
+  <delay_ms><FILE>C:\Users\ASUS\Documents\Atmel Studio\7.0\lab3\lab3\delay.inc</FILE><LINE>57</LINE></delay_ms>
+  <lcd_clear_display><FILE>C:\Users\ASUS\Documents\Atmel Studio\7.0\lab3\lab3\lcd.inc</FILE><LINE>174</LINE></lcd_clear_display>
+  <loop_dms><FILE>C:\Users\ASUS\Documents\Atmel Studio\7.0\lab3\lab3\delay.inc</FILE><LINE>59</LINE></loop_dms>
+  <delay_1_s><FILE>C:\Users\ASUS\Documents\Atmel Studio\7.0\lab3\lab3\delay.inc</FILE><LINE>74</LINE></delay_1_s>
+  <map_table><FILE>C:\Users\ASUS\Documents\Atmel Studio\7.0\lab3\lab3\keyboard.inc</FILE><LINE>14</LINE></map_table>
+  <read_keyboard><FILE>C:\Users\ASUS\Documents\Atmel Studio\7.0\lab3\lab3\keyboard.inc</FILE><LINE>20</LINE></read_keyboard>
+  <read_keyboard_num><FILE>C:\Users\ASUS\Documents\Atmel Studio\7.0\lab3\lab3\keyboard.inc</FILE><LINE>31</LINE></read_keyboard_num>
+  <to_ASCII><FILE>C:\Users\ASUS\Documents\Atmel Studio\7.0\lab3\lab3\keyboard.inc</FILE><LINE>22</LINE></to_ASCII>
+  <scan_key><FILE>C:\Users\ASUS\Documents\Atmel Studio\7.0\lab3\lab3\keyboard.inc</FILE><LINE>35</LINE></scan_key>
+  <return_key_val><FILE>C:\Users\ASUS\Documents\Atmel Studio\7.0\lab3\lab3\keyboard.inc</FILE><LINE>56</LINE></return_key_val>
+  <roll_dice><FILE>C:\Users\ASUS\Documents\Atmel Studio\7.0\lab3\lab3\Tarning.inc</FILE><LINE>12</LINE></roll_dice>
+  <test><FILE>C:\Users\ASUS\Documents\Atmel Studio\7.0\lab3\lab3\Tarning.inc</FILE><LINE>14</LINE></test>
+  <roll><FILE>C:\Users\ASUS\Documents\Atmel Studio\7.0\lab3\lab3\Tarning.inc</FILE><LINE>22</LINE></roll>
+  <store_stat><FILE>C:\Users\ASUS\Documents\Atmel Studio\7.0\lab3\lab3\stat_data.inc</FILE><LINE>17</LINE></store_stat>
+  <rollagain><FILE>C:\Users\ASUS\Documents\Atmel Studio\7.0\lab3\lab3\Tarning.inc</FILE><LINE>29</LINE></rollagain>
+  <loopDice><FILE>C:\Users\ASUS\Documents\Atmel Studio\7.0\lab3\lab3\Tarning.inc</FILE><LINE>37</LINE></loopDice>
+  <handle_2><FILE>C:\Users\ASUS\Documents\Atmel Studio\7.0\lab3\lab3\Tarning.inc</FILE><LINE>53</LINE></handle_2>
+  <handle_3><FILE>C:\Users\ASUS\Documents\Atmel Studio\7.0\lab3\lab3\Tarning.inc</FILE><LINE>82</LINE></handle_3>
+  <handle_8><FILE>C:\Users\ASUS\Documents\Atmel Studio\7.0\lab3\lab3\Tarning.inc</FILE><LINE>90</LINE></handle_8>
+  <handle_9><FILE>C:\Users\ASUS\Documents\Atmel Studio\7.0\lab3\lab3\Tarning.inc</FILE><LINE>98</LINE></handle_9>
+  <showstat><FILE>C:\Users\ASUS\Documents\Atmel Studio\7.0\lab3\lab3\stats.inc</FILE><LINE>122</LINE></showstat>
+  <clearstat><FILE>C:\Users\ASUS\Documents\Atmel Studio\7.0\lab3\lab3\stats.inc</FILE><LINE>257</LINE></clearstat>
+  <monitor><FILE>C:\Users\ASUS\Documents\Atmel Studio\7.0\lab3\lab3\monitor.inc</FILE><LINE>49</LINE></monitor>
+  <clearstring><FILE>C:\Users\ASUS\Documents\Atmel Studio\7.0\lab3\lab3\stats.inc</FILE><LINE>12</LINE></clearstring>
+  <totalstring><FILE>C:\Users\ASUS\Documents\Atmel Studio\7.0\lab3\lab3\stats.inc</FILE><LINE>14</LINE></totalstring>
+  <countones><FILE>C:\Users\ASUS\Documents\Atmel Studio\7.0\lab3\lab3\stats.inc</FILE><LINE>16</LINE></countones>
+  <counttwos><FILE>C:\Users\ASUS\Documents\Atmel Studio\7.0\lab3\lab3\stats.inc</FILE><LINE>18</LINE></counttwos>
+  <countthrees><FILE>C:\Users\ASUS\Documents\Atmel Studio\7.0\lab3\lab3\stats.inc</FILE><LINE>20</LINE></countthrees>
+  <countfours><FILE>C:\Users\ASUS\Documents\Atmel Studio\7.0\lab3\lab3\stats.inc</FILE><LINE>22</LINE></countfours>
+  <countfives><FILE>C:\Users\ASUS\Documents\Atmel Studio\7.0\lab3\lab3\stats.inc</FILE><LINE>24</LINE></countfives>
+  <countsixs><FILE>C:\Users\ASUS\Documents\Atmel Studio\7.0\lab3\lab3\stats.inc</FILE><LINE>26</LINE></countsixs>
+  <init_stat><FILE>C:\Users\ASUS\Documents\Atmel Studio\7.0\lab3\lab3\stats.inc</FILE><LINE>31</LINE></init_stat>
+  <clear_stat><FILE>C:\Users\ASUS\Documents\Atmel Studio\7.0\lab3\lab3\stat_data.inc</FILE><LINE>42</LINE></clear_stat>
+  <hexconv><FILE>C:\Users\ASUS\Documents\Atmel Studio\7.0\lab3\lab3\stats.inc</FILE><LINE>37</LINE></hexconv>
+  <printhex><FILE>C:\Users\ASUS\Documents\Atmel Studio\7.0\lab3\lab3\stats.inc</FILE><LINE>38</LINE></printhex>
+  <printdecimal><FILE>C:\Users\ASUS\Documents\Atmel Studio\7.0\lab3\lab3\stats.inc</FILE><LINE>69</LINE></printdecimal>
+  <no200><FILE>C:\Users\ASUS\Documents\Atmel Studio\7.0\lab3\lab3\stats.inc</FILE><LINE>78</LINE></no200>
+  <tens><FILE>C:\Users\ASUS\Documents\Atmel Studio\7.0\lab3\lab3\stats.inc</FILE><LINE>90</LINE></tens>
+  <no100><FILE>C:\Users\ASUS\Documents\Atmel Studio\7.0\lab3\lab3\stats.inc</FILE><LINE>86</LINE></no100>
+  <nextten><FILE>C:\Users\ASUS\Documents\Atmel Studio\7.0\lab3\lab3\stats.inc</FILE><LINE>94</LINE></nextten>
+  <ones><FILE>C:\Users\ASUS\Documents\Atmel Studio\7.0\lab3\lab3\stats.inc</FILE><LINE>103</LINE></ones>
+  <get_stat><FILE>C:\Users\ASUS\Documents\Atmel Studio\7.0\lab3\lab3\stat_data.inc</FILE><LINE>33</LINE></get_stat>
+  <monitorstr><FILE>C:\Users\ASUS\Documents\Atmel Studio\7.0\lab3\lab3\monitor.inc</FILE><LINE>7</LINE></monitorstr>
+  <init_monitor><FILE>C:\Users\ASUS\Documents\Atmel Studio\7.0\lab3\lab3\monitor.inc</FILE><LINE>10</LINE></init_monitor>
+  <moni_read_keyboard><FILE>C:\Users\ASUS\Documents\Atmel Studio\7.0\lab3\lab3\monitor.inc</FILE><LINE>14</LINE></moni_read_keyboard>
+  <monireadquit><FILE>C:\Users\ASUS\Documents\Atmel Studio\7.0\lab3\lab3\monitor.inc</FILE><LINE>30</LINE></monireadquit>
+  <moni_akey><FILE>C:\Users\ASUS\Documents\Atmel Studio\7.0\lab3\lab3\monitor.inc</FILE><LINE>24</LINE></moni_akey>
+  <moni_print_address><FILE>C:\Users\ASUS\Documents\Atmel Studio\7.0\lab3\lab3\monitor.inc</FILE><LINE>33</LINE></moni_print_address>
+  <moni_next><FILE>C:\Users\ASUS\Documents\Atmel Studio\7.0\lab3\lab3\monitor.inc</FILE><LINE>55</LINE></moni_next>
+  <moniquit><FILE>C:\Users\ASUS\Documents\Atmel Studio\7.0\lab3\lab3\monitor.inc</FILE><LINE>88</LINE></moniquit>
+  <moni_more><FILE>C:\Users\ASUS\Documents\Atmel Studio\7.0\lab3\lab3\monitor.inc</FILE><LINE>81</LINE></moni_more>
+  <total_stat><FILE>C:\Users\ASUS\Documents\Atmel Studio\7.0\lab3\lab3\stat_data.inc</FILE><LINE>14</LINE></total_stat>
+  <init_pins><FILE>C:\Users\ASUS\Documents\Atmel Studio\7.0\lab3\lab3\lab3.asm</FILE><LINE>68</LINE></init_pins>
+  <main><FILE>C:\Users\ASUS\Documents\Atmel Studio\7.0\lab3\lab3\lab3.asm</FILE><LINE>99</LINE></main>
+ </LABELS>
+</ASSEMBLER_INFO>
